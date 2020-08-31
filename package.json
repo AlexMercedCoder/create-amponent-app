@@ -1,23 +1,23 @@
 {
   "name": "create-amponent-app",
   "version": "1.0.0",
-  "description": "This is a command-line tool for generating Vue projects with router and Buefy.",
+  "description": "This is a command-line tool for generating AMPonent Projects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "create-amponent-app": "index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexMercedCoder/merced-vuer.git"
+    "url": "git+https://github.com/AlexMercedCoder/create-amponent-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexMercedCoder/merced-vuer/issues"
+    "url": "https://github.com/AlexMercedCoder/create-amponent-app/issues"
   },
-  "homepage": "https://github.com/AlexMercedCoder/merced-vuer#readme",
-  "bin": {
-    "create-amponent-app": "index.js"
-  }
+  "homepage": "https://github.com/AlexMercedCoder/create-amponent-app#readme"
 }
